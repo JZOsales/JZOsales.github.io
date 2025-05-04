@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: crimson;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: #2b2b2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
